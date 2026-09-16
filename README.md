@@ -1,6 +1,6 @@
 # ForestGuard AI – Illegal Logging Detection Web Application
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/prithvirajkolhapure/ForestGuard-AI)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/prithvirajkolhapure/ForestGuard-Ai)
 
 ## 1. Project Overview
 ForestGuard AI is a comprehensive web application designed to detect and monitor illegal logging activities in real-time. It leverages advanced technologies including drone footage, satellite imagery, IoT forest sensors, and audio detection (e.g., chainsaw sounds) combined with cutting-edge AI/ML models.
