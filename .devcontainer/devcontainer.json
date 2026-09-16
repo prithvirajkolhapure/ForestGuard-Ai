@@ -1,0 +1,29 @@
+{
+  "name": "ForestGuard AI Cloud Environment",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "forwardPorts": [5173, 5005, 8000],
+  "portsAttributes": {
+    "5173": {
+      "label": "Frontend Dashboard",
+      "onAutoForward": "openBrowser"
+    },
+    "5005": {
+      "label": "Backend Express API",
+      "onAutoForward": "notify"
+    },
+    "8000": {
+      "label": "AI Microservice (FastAPI)",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "ms-python.python",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}

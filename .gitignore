@@ -1,0 +1,27 @@
+# Node dependencies
+**/node_modules/
+package-lock.json
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Environment variables
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Python artifacts
+**/__pycache__/
+*.py[cod]
+*$py.class
+**/.venv/
+**/venv/
+**/env/
+*.pt
+
+# Build outputs
+**/dist/
+**/build/
+.DS_Store

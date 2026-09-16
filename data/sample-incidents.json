@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Suspected Chainsaw Activity",
+        "type": "Chainsaw Sound",
+        "location": {
+            "latitude": -1.30,
+            "longitude": 36.85
+        },
+        "severity": "High",
+        "status": "Investigating",
+        "detectedBy": "AI"
+    },
+    {
+        "title": "Truck Spotted in Restricted Zone",
+        "type": "Logging Truck",
+        "location": {
+            "latitude": -1.32,
+            "longitude": 36.88
+        },
+        "severity": "Critical",
+        "status": "Pending",
+        "detectedBy": "AI"
+    },
+    {
+        "title": "Manual Ranger Report: Tree Stumps Found",
+        "type": "Tree Cutting",
+        "location": {
+            "latitude": -1.28,
+            "longitude": 36.80
+        },
+        "severity": "Medium",
+        "status": "Resolved",
+        "detectedBy": "Manual"
+    }
+]
